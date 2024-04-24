@@ -2,4 +2,4 @@
 
 use App\Http\Route;
 
-Route::post('/secure-password', 'PasswordController@secure');
+Route::post('/validate-password', 'PasswordController@secure');

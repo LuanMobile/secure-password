@@ -4,7 +4,7 @@ namespace App\Http;
 
 class Response
 {
-    public static function json(array $data = [], int $statusCode = 200)
+    public static function json(string|array $data = [], int $statusCode = 200)
     {
         http_response_code($statusCode);
         header('Content-Type: application/json');
